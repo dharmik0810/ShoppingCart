@@ -1,0 +1,97 @@
+/*!
+ * Extend Bootstrap v2.3.1 to provide cell alignment (doh)
+ *
+ */
+/* app css stylesheet */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    float:left;
+    display: inline;
+}
+.top_menu {
+    margin: 0 0px 0 78px;
+    display: block;
+    float: left;
+}
+.top_menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 12px;
+    float: left;
+}
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu:before {
+    content: "[";
+}
+
+.menu:after {
+    content: "]";
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+}
+#total{
+    text-align: center;
+    color: white;
+    background-color: #919c9d;
+    opacity: 0.4;
+}
+.carousel-caption{
+    background-color: #919c9d;
+    opacity: 0.7;
+    box-sizing: border-box;
+    align-content: flex-end;
+
+}
+.circle{
+    width:250px;
+    height:250px;
+    border: 6px solid #919c9d;
+    margin: 20px auto;
+    padding: 1em;
+    display:block;
+    font-size: 1.2em;
+    text-align:center;
+}
+
+.category{
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 0 0 15px rgba(180, 193, 206, 0.8);
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+}
+.table td.tdRight {
+  text-align: right;
+}
+.table td.tdCenter {
+  text-align: center;
+}
+.table-nonfluid {
+   width: auto;
+}
