@@ -1,3 +1,3 @@
 # ShoppingCart
-Technology used: HTML5, CSS3, AngularJS, BootStrap, JavaScript, jQuery  
+Technology used: AngularJS,HTML5, CSS3, BootStrap, JavaScript, jQuery  
 
